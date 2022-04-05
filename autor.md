@@ -2,9 +2,9 @@
 
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
-- Nome: *\Giselle Neres de Oliveira e Silva*
-- Email: *\gisel.nereles@outlook.com*
-- Turma: *\T03*
+- Nome: **Giselle Neres de Oliveira e Silva**
+- Email: *gisel.nereles@outlook.com*
+- Turma: *T03*
 
 # Questões Finalizadas
 
