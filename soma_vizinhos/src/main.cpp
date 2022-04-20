@@ -8,9 +8,8 @@ int main( void )
     int x, y;
     while( cin >> std::ws >> x >> y) {
         int sum = x;
-        //cin >> x >> y;
         bool yMoreThanZero = y > 0;
-
+      
         for (int i = 0; i < std::abs(y)-1; i++)
         {
             if (yMoreThanZero){
@@ -21,10 +20,9 @@ int main( void )
             }
             sum += x;
         }
-        
-
+      
         cout << sum << endl;
     }
-
+  
     return 0;
 }

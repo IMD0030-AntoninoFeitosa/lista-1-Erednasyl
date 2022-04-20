@@ -35,12 +35,11 @@ int main(void)
         numQnt++;
     }
 
-
-    cout << std::setprecision(4) << (in025/numQnt)*100 << endl;
-    cout << std::setprecision(4) << (in2550/numQnt)*100 << endl;
-    cout << std::setprecision(4) << (in5075/numQnt)*100 << endl;
-    cout << std::setprecision(4) << (in75100/numQnt)*100 << endl;
-    cout << std::setprecision(4) << (out/numQnt)*100 << endl;
+    cout << setprecision(4) << (in025/numQnt)*100 << endl;
+    cout << setprecision(4) << (in2550/numQnt)*100 << endl;
+    cout << setprecision(4) << (in5075/numQnt)*100 << endl;
+    cout << setprecision(4) << (in75100/numQnt)*100 << endl;
+    cout << setprecision(4) << (out/numQnt)*100 << endl;
 
     return 0;
 }

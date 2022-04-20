@@ -1,7 +1,7 @@
 #include "function.h"
 
-std::vector<unsigned int> fib_below_n( unsigned int n ){
-  std::vector<unsigned int> fib;
+vector<unsigned int> fib_below_n( unsigned int n ){
+  vector<unsigned int> fib;
   
   unsigned int fib0 = 0;
   unsigned int fibS0 = 1;
@@ -13,5 +13,5 @@ std::vector<unsigned int> fib_below_n( unsigned int n ){
       fibS0=result;
   }
   fib.shrink_to_fit();
-  return std::vector<unsigned int>{fib};
+  return fib;
 }
